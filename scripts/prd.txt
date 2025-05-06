@@ -1,0 +1,50 @@
+# MCP Server Zillow - Code Review and Testing PRD
+
+## Overview
+The MCP Server Zillow project requires a comprehensive code review, testing, and validation process to ensure it functions correctly as a Model Context Protocol server. The server provides tools for searching Zillow properties and retrieving detailed property information.
+
+## Core Requirements
+
+### Server Implementation
+- Server must be properly configured with name, version, and capabilities
+- Server must connect to transport correctly
+- Server must handle tool registration and execution
+- Server must implement proper error handling
+- Server must follow TypeScript best practices and maintain type safety
+
+### Tools Implementation
+- ZILLOW_SEARCH_TOOL must validate and process location parameter correctly
+- ZILLOW_PROPERTY_DETAILS_TOOL must validate and process zpid parameter correctly
+- Both tools must handle errors appropriately
+- Tools must return properly typed responses
+
+### Testing Requirements
+- Comprehensive test coverage for server initialization and configuration
+- Test cases for tool registration and listing
+- Test cases for tool execution with valid and invalid parameters
+- Error handling test cases
+- Transport initialization and handling tests
+- Mock implementation for Zillow API calls
+- Type safety validation in tests
+
+### Code Quality
+- Fix all TypeScript linter errors
+- Ensure proper typing throughout the codebase
+- Follow consistent code style and best practices
+- Proper error handling and logging
+- Clear and maintainable code structure
+
+## Success Criteria
+1. All tests pass successfully
+2. No TypeScript linter errors
+3. Server initializes and configures correctly
+4. Tools execute and handle errors as expected
+5. Code is well-documented and maintainable
+6. Type safety is maintained throughout
+7. Error handling is comprehensive and user-friendly
+
+## Technical Constraints
+- Must use TypeScript
+- Must follow MCP protocol specifications
+- Must maintain compatibility with MCP SDK
+- Must handle Zillow API integration properly 

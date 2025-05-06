@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "zpid": "12345678",
+      "address": "123 Main St, Seattle, WA",
+      "price": 750000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1800,
+      "propertyType": "SINGLE_FAMILY",
+      "yearBuilt": 1985,
+      "url": "https://www.zillow.com/homedetails/123-main-st-seattle-wa-12345678"
+    },
+    {
+      "zpid": "87654321", 
+      "address": "456 Oak Ave, Seattle, WA",
+      "price": 825000,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2200,
+      "propertyType": "SINGLE_FAMILY",
+      "yearBuilt": 1992,
+      "url": "https://www.zillow.com/homedetails/456-oak-ave-seattle-wa-87654321"
+    },
+    {
+      "zpid": "13579246",
+      "address": "789 Pine St, Seattle, WA",
+      "price": 550000,
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1100,
+      "propertyType": "CONDO",
+      "yearBuilt": 2005,
+      "url": "https://www.zillow.com/homedetails/789-pine-st-seattle-wa-13579246"
+    }
+  ],
+  "totalResults": 3,
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 1
+  }
+} 

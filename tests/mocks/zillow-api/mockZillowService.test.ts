@@ -1,0 +1,1 @@
+import type { Property, PropertyDetails } from '../../../src/types.js';

@@ -1,0 +1,53 @@
+{
+  "zpid": "12345678",
+  "address": {
+    "streetAddress": "123 Main St",
+    "city": "Seattle",
+    "state": "WA",
+    "zipcode": "98101"
+  },
+  "price": 750000,
+  "description": "Beautiful single-family home in prime Seattle location. Recently updated kitchen, hardwood floors throughout, and spacious backyard.",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "livingArea": 1800,
+  "lotSize": 5000,
+  "yearBuilt": 1985,
+  "propertyType": "SINGLE_FAMILY",
+  "features": {
+    "hasGarage": true,
+    "parkingSpaces": 2,
+    "hasCentralAir": true,
+    "hasFireplace": true
+  },
+  "taxAssessment": {
+    "year": 2023,
+    "amount": 680000
+  },
+  "schools": [
+    {
+      "name": "Seattle Elementary",
+      "rating": 8,
+      "distance": 0.5,
+      "type": "Elementary"
+    },
+    {
+      "name": "Seattle Middle School",
+      "rating": 7,
+      "distance": 1.2,
+      "type": "Middle"
+    },
+    {
+      "name": "Seattle High",
+      "rating": 9,
+      "distance": 1.8,
+      "type": "High"
+    }
+  ],
+  "url": "https://www.zillow.com/homedetails/123-main-st-seattle-wa-12345678",
+  "photos": [
+    "https://photos.zillow.com/12345678/1.jpg",
+    "https://photos.zillow.com/12345678/2.jpg",
+    "https://photos.zillow.com/12345678/3.jpg"
+  ]
+} 
