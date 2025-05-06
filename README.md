@@ -107,9 +107,13 @@ npm run build
 3. Create new credentials with these settings:
    - **Transport Type**: STDIO
    - **Command**: `node`
-   - **Arguments**: `/path/to/mcp-server-zillow/dist/index.js`
+   - **Arguments**: `/path/to/mcp-server-zillow/dist/src/index.js`
 
    Replace `/path/to` with the absolute path to your project directory.
+   
+   **Troubleshooting:**
+   - If you see `require is not defined in ES module scope`, make sure you are using the correct path (`dist/src/index.js`) and that your `package.json` has `"type": "module"`.
+   - Ensure all environment variables (e.g., API keys) are available to the n8n process. If running n8n in Docker or another environment, copy your `.env` file or set variables accordingly.
 
 4. Available Tools:
    - `zillow_search`: Search for properties
